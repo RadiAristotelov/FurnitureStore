@@ -1,0 +1,21 @@
+{
+  "name": "JSApplicationsFurnitureStoreWorkshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite": "^4.0.5",
+    "lite-server": "^2.6.1",
+    "server": "^1.0.31"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.6"
+  }
+}

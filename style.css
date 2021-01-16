@@ -1,0 +1,12 @@
+.site-nav li {
+    display: inline;
+    margin: 5px;
+}
+
+.image-container img {
+    width: 300px;
+}
+
+.furniture-list {
+    display: flex;
+}

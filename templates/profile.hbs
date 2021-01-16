@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row space-top">
+    <div class="col-md-12">
+      <h1>Profile Page</h1>
+      <p>Listing your furniture.</p>
+    </div>
+  </div>
+  {{#each furnitureData}}
+  <div class="row space-top">
+    <div class="col-md-4">
+      <div class="card text-white bg-primary">
+        <div class="card-body">
+          <blockquote class="card-blockquote">
+            <div class="image-container"><img src="{{image}}" /></div>
+            <p>{{description}}</p>
+            <footer>Someone famous in {{model}}.
+              <cite title="Source Title">{{make}}</cite>
+            </footer>
+            <div class="pull-right">
+              <a href="/furniture/details/{{key}}" class="btn btn-info">Details</a>
+              <a href="/furniture/delete/{{key}}" class="btn btn-danger" onclick="deleteItem(event, '{{key}}')">Delete Item</a>
+            </div>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</div>
